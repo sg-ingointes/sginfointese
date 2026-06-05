@@ -1,7 +1,7 @@
 <?php
 // Vérification reCAPTCHA côté serveur
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $secretKey = '6Lfdq1krAAAAAKRsvF_Ixz9E1xWG5AiAW3XhBufb'; // Clé secrète Google reCAPTCHA
+    $secretKey = '6LdolA4tAAAAAH9bcaThC4hSn7NV1tRGlVcVTeFm'; // Clé secrète Google reCAPTCHA
     $recaptchaResponse = $_POST['g-recaptcha-response'];
 
     if (!empty($recaptchaResponse)) {
@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <p class="text-center">Bevestig alstublieft dat u geen robot bent.</p>
 
                 <div class="recaptcha-container">
-                    <div class="g-recaptcha" data-sitekey="6Lfdq1krAAAAAD5bazdYlU7ymXV3ze9EK8rYM6po"></div>
+                    <div class="g-recaptcha" data-sitekey="6LdolA4tAAAAAPRSYYgedtFFohmaF_HkgeVE5yIn"></div>
                 </div>
 
                 <br>
